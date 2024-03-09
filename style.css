@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+#container{
+    display: flex;
+    flex-direction: row;
+}
+#header{
+    border: 1px solid black;
+    background-color: gray;
+    height: 71px;
+    display: flex;
+    flex-direction: column;
+}
+#header #studImg{
+    width: 20%;
+    height: inherit;
+}
+#header #studDetail{
+    width: 193%;
+    display: flex;
+    flex-direction: column;
+}
+#header #studDetail #studName{
+
+
+}
+#header #studDetail #menu{
+
+}
+/* #Menulist li:hover{
+    transform: scale(1.3);
+} */
+#header #studDetail #Menu #Menulist{
+    display: flex;
+    flex-direction: column;
+}
+#header #studDetail #Menu #Menulist li{
+    margin: 5px;
+    padding: 5px;
+    list-style: none;
+}
+#header #studDetail #Menu #Menulist li a{
+    text-decoration: none;
+
+}
+#header #studImg img{
+    height: inherit;
+    border-radius: 50px;
+}
+
+#main{
+    border: 1px solid black;
+    background-color: cornflowerblue;
+    height: 620px;
+    overflow: scroll;
+    text-align: center;
+
+}
+#main div{
+    height: 610px;
+    /* border: 1px solid gray;
+    margin: 5px;
+    padding: 5px; */
+    border-color: cornflowerblue;
+}
+#footer{
+    border: 1px solid black;
+    background-color: grey;
+    /* height: 53px; */
+
+
+}
+#AboutSection{
+    background-image: url(about-me-leon-severan-we-buy-houses.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
